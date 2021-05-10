@@ -1,3 +1,23 @@
 #radio-check{
     padding: 10px;
 }
+#button{
+    width: 20%;
+    margin-left:40%;
+    padding: 10px;
+}
+section{
+    background-color: #023e8a;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/955389/pexels-photo-955389.jpeg?cs=srgb&dl=pexels-cytonn-photography-955389.jpg&fm=jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
