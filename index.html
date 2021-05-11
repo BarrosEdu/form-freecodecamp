@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
 </head>
 
 <body>
@@ -31,7 +30,7 @@
                     <div class="mb-3">
                         <label for="" id="number-label">Phone</label>
                         <input class="form-control" type="number" name="phone" id="number" placeholder="Your phone"
-                             max="20" min="8">
+                            max="20" min="8">
                     </div>
                     <div class="mb-3">
                         <label for=""> What's your ocupation</label>
@@ -44,17 +43,16 @@
                         </select>
                     </div>
                     <h4>Would you recommend our services?</h4>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="no" value="1">
-                        <label for="" class="form-check-label">No</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" name="maybe" value="2" checked>
-                        <label for="" class="form-check-label">Maybe</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" class="form-check-input" name="yes" value="3">
-                        <label for="" class="form-check-label">Yes</label>
+                    <div class="form-group">
+                        <label>
+                            <input class="input-radio" type="radio" name="recommend" value="no">
+                            No</label>
+                        <label>
+                            <input class="input-radio" type="radio" name="recommend" value="maybe" checked>
+                            Maybe</label>
+                        <label>
+                            <input class="input-radio" type="radio" name="recommend" value="yes">
+                            Yes</label>
                     </div>
                     <div class="mb-3">
                         <label for="">
@@ -70,26 +68,26 @@
                     </div>
                     <h4>What subjects do you like best? </h4>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="">
+                        <input name="liked"class="form-check-input" type="checkbox" value="Swing" id="">
                         <label class="form-check-label" for="">
                             Swing trade
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input name="liked"class="form-check-input" type="checkbox" value="AT" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             About AT
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input name="liked" class="form-check-input" type="checkbox" value="DT" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Day trade
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <input name="liked"class="form-check-input" type="checkbox" value="Options" id="flexCheckDefault" checked>
                         <label class="form-check-label" for="flexCheckDefault">
                             Options
                         </label>
@@ -99,12 +97,13 @@
                         <textarea class="form-control" aria-label="With textarea"></textarea>
                     </div>
                     <div>
-                        <button class="btn btn-primary center" type="submit" id="button">Submit</button>
+                        <button class="btn btn-primary center" type="submit" id="submit">Submit</button>
                     </div>
                 </form>
             </section>
         </div>
     </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
         crossorigin="anonymous"></script>
